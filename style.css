@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: 2200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+#store-detail {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #eee;
+}
+
+#coupon-listings {
+    flex: 2;
+}
+
+.single-store-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.header-store-thumb img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.store-info {
+    margin-top: 20px;
+}
+
+.store-info p {
+    margin: 0;
+    color: #555;
+}
+
+.coupon-listings-store {
+    margin-top: 20px;
+}
+
+.coupon-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 15px;
+}
+
+.coupon-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.coupon-des {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.coupon-detail {
+    text-align: center;
+}
+
+.coupon-button-type {
+    margin-top: 15px;
+}
+
+.coupon-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.coupon-button:hover {
+    background-color: #45a049;
+}
+
+.coupon-footer {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.share-count {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
