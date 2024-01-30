@@ -22,7 +22,7 @@ Follow these steps to get started with the Coupon Store Block:
 
 ```bash
 # Clone the repository
-git clone [repository_url]
+git clone https://github.com/learnwithnayanray/Block-Plugin-cupon-Store-
 
 # Navigate to the plugin directory
 cd coupon-store-block
